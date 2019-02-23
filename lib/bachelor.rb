@@ -15,9 +15,9 @@ end
 
 def get_contestant_name(data, occupation)
   # code here
-  data.each do |season, people|
+  data.each do |season, contestant_list|
     #binding.pry
-    people.each do |key, value|
+    contestant_list.each do |people|
       if key == "occupation"
         return people["name"]
 
