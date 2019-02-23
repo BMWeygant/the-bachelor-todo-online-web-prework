@@ -22,7 +22,7 @@ def get_contestant_name(data, occupation)
         return value
 
     end
-
+  end
   end
 end
 
