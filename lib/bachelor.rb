@@ -50,6 +50,10 @@ def get_occupation(data, hometown)
       info.each do |key, value|
         if value == hometown
           return people["occupation"]
+        end
+      end
+    end
+  end
 end
 
 def get_average_age_for_season(data, season)
