@@ -33,7 +33,7 @@ def count_contestants_by_hometown(data, hometown)
     contestant_list.each do |info|
       info.each do |key, value|
         if value == hometown
-          counter +=1
+          counter += 1
 
       end
     end
