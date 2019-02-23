@@ -6,7 +6,7 @@ data[season].each do |people|
   #binding.pry
   people.each do |key, value|
     if value == "Winner"
-      full_name == people["name"]
+      full_name = people["name"]
       return full_name.split(' ').first
 end
 end
