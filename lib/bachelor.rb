@@ -49,7 +49,7 @@ def get_occupation(data, hometown)
     contestant_list.each do |info|
       info.each do |key, value|
         if value == hometown
-          return people["occupation"]
+          return info["occupation"]
         end
       end
     end
